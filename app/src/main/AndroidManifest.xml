@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.usuario.cadastro">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -19,23 +20,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication_cadastro">
         <activity
-            android:splitName="android.support.PARENT_ACTIVITY"
-            android:name=".Cadastro_Activity"
+            android:name=".MainActivityMsg"
             android:exported="true" />
-
         <activity
-            android:name=".Loguin_Activity"
-            android:exported="true">
+            android:name=".Cadastro_Activity"
+            android:exported="true"
+            android:splitName="android.support.PARENT_ACTIVITY" />
+        <activity
+            android:name=".Log_Activity"
+            android:exported="true"
+            tools:ignore="MissingClass">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
+            <intent-filter>
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

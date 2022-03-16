@@ -1,24 +1,25 @@
 <resources>
     <string name="app_name">Cadastro De User</string>
-        <string name="button_cadastro">Cadastrar</string>
-        <string name="txt_cadastro">Cadastre Aqui!</string>
-        <string name="TXT">Seja bem vindo ao Driver</string>
-        <string name="btnLoc">Localizar</string>
-        <string name="cadastro">
+    <string name="button_cadastro">Cadastrar</string>
+    <string name="txt_cadastro">Cadastre Aqui!</string>
+    <string name="TXT">Seja bem vindo</string>
+    <string name="btnLoc">Localizar</string>
+    <string name="cadastro">
         <u>Cadastre-se aqui!</u>
     </string>
 
-        <string name="btnLog">Loguin</string>
-        <string name="app_name2"> Cadastro do Driver </string>
-        <string name="Hint_email">E-mail de cadastro</string>
-        <string name="Hint_senha">Senha de cadastro</string>
-        <string name="Hint_Confir_sen">Confirme a Senha</string>
-        <string name="Hint_Email_log">E-mail</string>
-        <string name="Hint_log_sen">Senha</string>
-        <string name="Check_box">Salvar Dados</string>
-        <string name="title_activity_maps">MapsActivity</string>
-        <string name="txt_view_cadastro">Informe seus dados abaixo.</string>
+    <string name="btnLog">Login</string>
+    <string name="app_name2"> Cadastro do Driver </string>
+    <string name="Hint_email">E-mail de cadastro</string>
+    <string name="Hint_senha">Senha de cadastro</string>
+    <string name="Hint_Confir_sen">Confirme a Senha</string>
+    <string name="Hint_Email_log">E-mail</string>
+    <string name="Hint_log_sen">Senha</string>
+    <string name="Check_box">Salvar Dados</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="txt_view_cadastro">Informe seus dados abaixo.</string>
     <string name="txt_main">Seja bem vindo ao meu app</string>
-    <string name="btn_localizar">Localizar</string>
+    <string name="HintMenssage">Menssagem</string>
+
 
 </resources>

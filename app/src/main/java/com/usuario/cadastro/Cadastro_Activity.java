@@ -2,7 +2,6 @@ package com.usuario.cadastro;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import android.Manifest;
 import android.app.AlertDialog;
@@ -21,7 +20,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-public class Cadastro_Activity extends AppCompatActivity {
+public class Cadastro_Activity extends MainActivity {
 
     private static final int READ_SOCKET = 1;
     public Button btnCadastro;
@@ -80,7 +79,7 @@ public class Cadastro_Activity extends AppCompatActivity {
                 , Toast.LENGTH_LONG);
 
         // intent da tela de loguin
-        Intent intentLOG = new Intent(this, Loguin_Activity.class);
+        Intent intentLOG = new Intent(this, Log_Activity.class);
 
         // Function click do botao cadastrar usuarios
         btnCadastro.setOnClickListener(new View.OnClickListener() {
